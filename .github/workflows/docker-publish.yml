@@ -1,9 +1,13 @@
 name: Build and Push Docker Image
 
 on:
-  # Publish only on release creation
+  # Publish on release creation
   release:
     types: [published]
+  # Publish on version tags
+  push:
+    tags:
+      - 'v*'
   # Allow manual trigger
   workflow_dispatch:
 
