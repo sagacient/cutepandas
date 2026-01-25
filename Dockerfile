@@ -80,7 +80,6 @@ RUN pip install --no-cache-dir \
     'polyglot>=16.7.0' \
     'geopandas>=1.0.0' \
     'shapely>=2.0.0' \
-    'fiona>=1.10.0' \
     'pyproj>=3.7.0' \
     'geopy>=2.4.0' \
     'folium>=0.18.0' \

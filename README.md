@@ -81,18 +81,17 @@ docker pull sagacient/cutepandas:latest
 ### Geospatial & GIS
 | Package | Version | Description |
 |---------|---------|-------------|
-| geopandas | 1.0.1 | Spatial/geographic data operations |
-| shapely | 2.0.6 | Geometric operations |
-| fiona | 1.10.1 | Read/write spatial formats |
-| pyproj | 3.7.0 | Coordinate system transformations |
-| geopy | 2.4.1 | Geocoding services |
-| folium | 0.18.0 | Interactive Leaflet maps |
-| contextily | 1.6.2 | Basemaps for plots |
-| rtree | 1.3.0 | Spatial indexing |
-| h3 | 3.7.7 | Hexagonal hierarchical indexing |
-| geojson | 3.1.0 | GeoJSON encoding/decoding |
-| pygeohash | 1.2.0 | Geohash encoding |
-| haversine | 2.8.1 | Distance calculations |
+| geopandas | 1.0+ | Spatial/geographic data operations |
+| shapely | 2.0+ | Geometric operations |
+| pyproj | 3.7+ | Coordinate system transformations |
+| geopy | 2.4+ | Geocoding services |
+| folium | 0.18+ | Interactive Leaflet maps |
+| contextily | 1.6+ | Basemaps for plots |
+| rtree | 1.3+ | Spatial indexing |
+| h3 | 3.7+ | Hexagonal hierarchical indexing |
+| geojson | 3.1+ | GeoJSON encoding/decoding |
+| pygeohash | 1.2+ | Geohash encoding |
+| haversine | 2.8+ | Distance calculations |
 
 ## ✨ Key Features
 
