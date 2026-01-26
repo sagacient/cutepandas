@@ -96,12 +96,21 @@ RUN python -m spacy download en_core_web_sm && \
     python -m nltk.downloader -d /usr/local/share/nltk_data popular && \
     python -m textblob.download_corpora
 
+# Copy geo data download script
+COPY download-geodata.py /tmp/download-geodata.py
+RUN chmod +x /tmp/download-geodata.py
+
+# Download and cache geo datasets (runs during build)
+RUN python /tmp/download-geodata.py && \
+    rm /tmp/download-geodata.py
+
 # Create non-root user for security
 RUN useradd -m -s /bin/bash -u 1000 pandas
 
-# Create directories
-RUN mkdir -p /data /output && \
-    chown -R pandas:pandas /data /output
+# Create directories and set permissions for geo data
+RUN mkdir -p /data /output /usr/local/share/geo-data && \
+    chown -R pandas:pandas /data /output && \
+    chmod -R 755 /usr/local/share/geo-data
 
 # Switch to non-root user
 USER pandas
