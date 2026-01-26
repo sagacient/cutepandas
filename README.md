@@ -84,6 +84,7 @@ docker pull sagacient/cutepandas:latest
 | geopandas | 1.0+ | Spatial/geographic data operations |
 | shapely | 2.0+ | Geometric operations |
 | pyproj | 3.7+ | Coordinate system transformations |
+| geodatasets | 2023.12+ | Example geospatial datasets |
 | geopy | 2.4+ | Geocoding services |
 | folium | 0.18+ | Interactive Leaflet maps |
 | contextily | 1.6+ | Basemaps for plots |

@@ -81,6 +81,7 @@ RUN pip install --no-cache-dir \
     'geopandas>=1.0.0' \
     'shapely>=2.0.0' \
     'pyproj>=3.7.0' \
+    'geodatasets>=2023.12.0' \
     'geopy>=2.4.0' \
     'folium>=0.18.0' \
     'contextily>=1.6.0' \
