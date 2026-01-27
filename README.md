@@ -30,6 +30,7 @@ docker pull sagacient/cutepandas:latest
 | fastparquet | 2024.11.0 | Fast Parquet support |
 | python-docx | 1.1.2 | Word documents (.docx) |
 | pypdf | 5.1.0 | PDF documents |
+| reportlab | 4.2+ | PDF generation and creation |
 | python-pptx | 1.0.2 | PowerPoint presentations |
 | odfpy | 1.4.1 | OpenDocument formats |
 | beautifulsoup4 | 4.12.3 | HTML/XML parsing |
