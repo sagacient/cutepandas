@@ -48,6 +48,7 @@ RUN pip install --no-cache-dir \
     'tabulate>=0.9.0' \
     'python-docx>=1.1.0' \
     'pypdf>=5.0.0' \
+    'reportlab>=4.2.0' \
     'python-pptx>=1.0.0' \
     'beautifulsoup4>=4.12.0' \
     'lxml>=5.3.0' \
